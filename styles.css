@@ -1,0 +1,192 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background: #444;
+}
+
+/*Main navigation CSS*/
+
+#mainNavigation{
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+	height: 7vh;
+	background: #add8e6;/*8DBBCE, ADD8E6;*/
+	display: inline-block;
+	min-height: 50px;
+}
+
+#mainNavLinks{
+	margin-left: 80vw;
+	list-style-type:none;
+	list-style: none;
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#navWrap{
+	height: 100%;
+	display: table;
+	margin-left: 80vw;
+}
+
+#mainNavLinks li{
+	display: table-cell;
+	height: 100%;
+	transition: .5s;
+}
+
+#mainNavLinks li a{
+	text-decoration: none;
+	color: #303032;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Lato', 'sans-serif';
+	transition: .5s;
+	line-height: 50px;
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+#mainNavLinks li a:hover{
+	color: #777;
+	background: #99C4D2;
+}
+
+/*Index page stylings*/
+
+#mainContent{
+	background: #444;
+	display: inline-block;
+	width: 100vw;
+}
+
+#mainContent p{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	color: #fff;
+	padding: 0px 20px;
+	vertical-align: middle;
+}
+
+.half{
+	width: 48vw;
+	float: left;
+}
+
+#right{
+	margin-left: 2vw;
+}
+
+.terminal{
+	border: solid #444;
+	border-width: 1vh 1vw;
+	width: 100%;
+	background: #303032;
+}
+
+#js{
+	width: 98vw;
+	min-height: 140px;
+	height:21vh;
+}
+
+#cplusplus{
+	min-height:220px;
+	height: 33vh;
+}
+
+#php{
+	min-height:240px;
+	height:35vh;
+}
+
+#python{
+	min-height: 200px;
+	height: 31vh;
+}
+
+#binary{
+	min-height: 125px;
+	height: 18vh;
+}
+
+#text{
+	min-height:0px;
+	height: 13vh;
+}
+
+/*Fonts and colors*/
+
+.gn{
+	color: #6DDE60; //Green
+}
+
+.yw{
+	color: #ffff60; //Yellow
+}
+
+.pe{
+	color: #B773AB; //purple
+}
+
+.white{
+	color: #fff;
+}
+
+.red{
+	color: red;
+}
+
+.cyan{
+	color: #00ffff !important; //blue
+}
+
+/*Pix*/
+
+#slideshow{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	//width: 500px;
+	height: 500px;
+	padding: 10px;
+	text-align: center;
+}
+
+.photodiv{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom 10px;
+	left: 10px;
+	display: inline-block;
+	//background: #fff;
+	padding: 10px;
+}
+
+.fixit {
+	opacity: 0;
+}
+
+.photo{
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px  5px 5px #777;
+	display: inline-block;
+	position: relative;
+}
+.paragraphs{
+	font-family: 'Lato', 'sans-serif';
+	font-size: 30px;
+	line-height: 40px;
+	padding: 0px;
+	margin: 5px;
+	bottom: 0px;
+	color: #ADD8E6;
+}
+

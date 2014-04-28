@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Happy Birthday Eli!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Happy Birthday Eli!">
+<meta name="author" content="Lucy Wyman">
+<link href="styles.css" type="text/CSS" rel="stylesheet"></link>
+<link href="./img/favicon.ico" type="image/icon" rel="icon"></link>
+
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+<!--Script for slideshow-->
+<script type="text/javascript" src="jquery-1.11.0.js"></script>
+<script type="text/javascript">
+$(function(){
+		$("#slideshow>div:gt(0)").hide();
+
+		setInterval(function() {
+			$('#slideshow>div:first')
+			.fadeOut(1000)
+			.next()
+			.fadeIn(1000)
+			.end()
+			.appendTo('#slideshow');
+			}, 5000);
+		});
+</script>
+</head>
+
+<body id="index">
+<div id="mainNavigation">
+	<div id="logo">
+		<img>
+	</div>
+	<div id="navWrap">
+		<ul id="mainNavLinks">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="pix.html" title="Pictures I literally just downloaded from Facebook">Pix</a></li>
+		</ul>
+	</div>
+</div>
+<div id="pixContent" class="quickfix">
+	<div id="slideshow">
+	<div class="photodiv"><img class="photo" src="./img/baby.jpg" alt="Baby picture"><p class="paragraphs">The Beginning</p></div>
+	<div class="photodiv"><img class="photo" src="./img/cute.jpg" alt="Bible School"><p class="paragraphs">Born to model</p></div>
+	<div class="photodiv"><img class="photo" src="./img/crazy.jpg" alt="Girl Scouts"><p class="paragraphs">Some things never change</p></div>
+	<div class="photodiv"><img class="photo" src="./img/indexMain.jpg" alt="Girl Scouts"><p class="paragraphs">Now let's all calm down here</p></div>
+	<div class="photodiv"><img class="photo" src="./img/weallhadroughtimes.jpg" alt="Girl Scouts"><p class="paragraphs">Stone cold fox</p></div>
+	<div class="photodiv"><img class="photo" src="./img/wut.jpg" alt="Debutante day"><p class="paragraphs">Gurl, wut u talkin' bout?</p></div>
+	<div class="photodiv"><img class="photo" src="./img/twoeyes.jpg" alt="High School"><p class="paragraphs">Your eyes are two different colors!</p></div>
+	<div class="photodiv"><img class="photo" src="./img/drugs.jpg" alt="I love you"><p class="paragraphs">At least we weren't doing drugs</p></div>
+	<div class="photodiv"><img class="photo" src="./img/blondie.jpg" alt="Dorky picture"><p class="paragraphs">Contemplating life, the universe, and everything</p></div>
+	<div class="photodiv"><img class="photo" src="./img/computer.jpg" alt="Livin' in the seventies"><p class="paragraphs">And here we see the computer geek in his natural habitat.</p></div>
+	<div class="photodiv"><img class="photo" src="./img/theater.jpg" alt="Prom!"><p class="paragraphs">This just seemed like an accurate depiction of everyone involved</p></div>
+	<div class="photodiv"><img class="photo" src="./img/pigmice.jpg" alt="Graduation day"><p class="paragraphs">Triumph of the nerds</p></div>
+	<div class="photodiv"><img class="photo" src="./img/purple.jpg" alt="Graduation with Grandma"><p class="paragraphs">Your hair is purple</p></div>
+	<div class="photodiv"><img class="photo" src="./img/sexy.jpg" alt="Hanging out"><p class="paragraphs">Damn...</p></div>
+	<div class="photodiv"><img class="photo" src="./img/shoe.jpg" alt="Standing up"><p class="paragraphs">We all have those days.</p></div>
+	<div class="photodiv"><img class="photo" src="./img/prom.jpg" alt="With Chris at the Beach"><p class="paragraphs">Prom!</p></div>
+	<div class="photodiv"><img class="photo" src="./img/graduation.jpg" alt="Close up"><p class="paragraphs">Level up.</p></div>
+	<div class="photodiv"><img class="photo" src="./img/now.jpg" alt="Happy Couple"><p class="paragraphs">Now</p></div>
+</div>	
+
